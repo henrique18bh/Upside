@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questão 2", "Questão 2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetorOrdenado", "VetorOrdenado\VetorOrdenado.csproj", "{5EEA44CA-5A3C-43B5-9CD0-B83F7D3FEFC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questão 3", "Questão 3", "{D8932AD6-B9E6-41E1-AE6A-80B4B20A6AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverteMatriz", "InverteMatriz\InverteMatriz.csproj", "{F046EE20-98CC-4B29-BEFB-0EEB8E521A74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{5EEA44CA-5A3C-43B5-9CD0-B83F7D3FEFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EEA44CA-5A3C-43B5-9CD0-B83F7D3FEFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EEA44CA-5A3C-43B5-9CD0-B83F7D3FEFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F046EE20-98CC-4B29-BEFB-0EEB8E521A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F046EE20-98CC-4B29-BEFB-0EEB8E521A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F046EE20-98CC-4B29-BEFB-0EEB8E521A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F046EE20-98CC-4B29-BEFB-0EEB8E521A74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D73D1A73-7A27-4D1E-A998-4486FCC5C100} = {D4B14885-723A-4EF3-B0B8-63155FEFA0D1}
 		{5EEA44CA-5A3C-43B5-9CD0-B83F7D3FEFC7} = {873FFADF-E966-4AEF-9393-1590C06DA189}
+		{F046EE20-98CC-4B29-BEFB-0EEB8E521A74} = {D8932AD6-B9E6-41E1-AE6A-80B4B20A6AC9}
 	EndGlobalSection
 EndGlobal
