@@ -18,7 +18,7 @@ namespace InverteMatriz
             {
                 for (int j = 0; j < matrizConvertida.GetLength(1); j++)
                 {
-                    Console.Write(string.Concat(matrizConvertida[i, j]," "));
+                    Console.Write(string.Concat(matrizConvertida[i, j], " "));
                 }
                 Console.WriteLine("");
             }

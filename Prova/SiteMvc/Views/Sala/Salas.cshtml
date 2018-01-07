@@ -1,0 +1,31 @@
+﻿@model SiteMvc.Models.GerarSalaViewModel
+@if (Model != null && Model.Salas.Any())
+{
+    var count = 0;
+    foreach (var sala in Model.Salas)
+    {
+        count++;
+            <h2>Sala @count</h2>
+            <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Nome Completo</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Afinidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var aluno in sala.Alunos)
+                {
+                    <tr>
+                        <td>@aluno.NomeCompleto</td>
+                        <td>@aluno.Sexo</td>
+                        <td>@aluno.Afinidade</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <hr />
+    }
+}
