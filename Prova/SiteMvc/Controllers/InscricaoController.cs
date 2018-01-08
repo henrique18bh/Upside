@@ -47,7 +47,7 @@ namespace SiteMvc.Controllers
             {
                 firstname = model.firstname,
                 cad_cpf = model.cad_cpf,
-                cad_datanascimento = model.cad_datanascimento,
+                cad_datanascimento = Convert.ToDateTime(model.cad_datanascimento),
                 emailaddress1 =  model.emailaddress1
             };
         }

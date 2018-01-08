@@ -19,10 +19,8 @@ namespace SiteMvc.Models
         public string cad_cpf { get; set; }
 
         [Required(AllowEmptyStrings = false)]
-        [DataType(DataType.DateTime)]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}}")]
         [Display(Name = "Data de nascimento")]
-        public DateTime cad_datanascimento { get; set; }
+        public string cad_datanascimento { get; set; }
 
         [Required(AllowEmptyStrings = false)]
         [Display(Name = "Email")]

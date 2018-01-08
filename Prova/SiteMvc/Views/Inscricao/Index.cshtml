@@ -5,7 +5,7 @@
 }
 
 <h2>Inscrição</h2>
-
+<br />
 
 @using (Html.BeginForm("Salvar", "Inscricao", FormMethod.Post)) 
 {
@@ -14,6 +14,7 @@
     <div class="form-horizontal">
         <h4>Forneça os dados abaixo para se inscrever no curso</h4>
         <hr />
+        <br />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
             @Html.LabelFor(model => model.firstname, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -59,8 +60,11 @@
 <script src="~/Scripts/bootstrap-datepicker.js"></script>
 <script>
         $(function () {
-            $('#datanascimento').datepicker();
+            $('#datanascimento').datepicker({
+                format: 'dd/mm/yyyy'
+            });
             $("#cpf").mask("999.999.999-99");
+            $('#datanascimento').mask("99/99/9999");
         });
 </script>
     @Scripts.Render("~/bundles/jqueryval")
